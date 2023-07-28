@@ -6,11 +6,10 @@ function firstChar(text) {
 	else {
 		let array = text.trim().split{''};
 		return array[0];
-		
 	}
 }
 
-// Do not change the code below
+// Do not change the code beow
 
-// const text = prompt("Enter text:");
-// alert(firstChar(text));
+const text = prompt("Enter text:");
+alert(firstChar(text));
