@@ -4,12 +4,12 @@ function firstChar(text) {
 		return "";
 	}
 	else {
-		let array = text.trim().split{''};
+		let array = text.trim().split('');
 		return array[0];
 	}
 }
 
-// Do not change the code beow
+// Do notchange the code beow
 
 const text = prompt("Enter text:");
 alert(firstChar(text));
